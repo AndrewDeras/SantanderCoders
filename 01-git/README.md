@@ -1,3 +1,5 @@
 # Santander Coders - Git
 
-### saving changes in the repository
+## Saving changes in the repository
+
+``` git add <file name + ext> ``` 
