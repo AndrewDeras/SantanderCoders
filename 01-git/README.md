@@ -11,6 +11,10 @@
 ``` git push (origin repository) (branch) ``` 
 ``` git pull (update) ``` 
 
+## Branch
+``` git branch (branch name to be created) ``` 
+``` git checkout (branch name to be selected) ``` 
+
 
 
 <hr>
