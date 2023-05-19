@@ -6,6 +6,13 @@
 ``` git add commit -m "commit message" ``` 
 ``` git log <see who made the last commits> ``` 
 
+## Interacting with remote repositories
+
+``` git push ``` 
+
+
+
+<hr>
 
 ## Start a working area (see also: git help tutorial)
    clone     Clone a repository into a new directory
