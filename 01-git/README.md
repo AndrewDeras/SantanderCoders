@@ -8,7 +8,7 @@
 
 ## Interacting with remote repositories
 
-``` git push ``` 
+``` git push (origin repository) (branch) ``` 
 
 
 
