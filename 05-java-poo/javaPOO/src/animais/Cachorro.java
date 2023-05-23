@@ -81,7 +81,7 @@ public class Cachorro {
     public void comer() {
     }
 
-    public void latir() {
+    public void soar() {
         System.out.println("Latindo");
     }
 
