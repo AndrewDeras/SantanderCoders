@@ -3,13 +3,16 @@ import animais.Cachorro;
 public class Main {
     public static void main(String[] args) {
 
-        Cachorro cachorro1 = new Cachorro();
-        cachorro1.nome = "Rocky";
-        cachorro1.cor = "marrom";
-        cachorro1.raca = "chihuahua";
-        cachorro1.idade = 6;
-        cachorro1.peso = 20.2;
+        Cachorro cachorro1 =
+                new Cachorro("Rambo", "Branco", "Pitbull",7,15.5,"feliz");
+        Cachorro cachorro2 =
+                new Cachorro("Tontin", "Branco", "Pitbull",7,15.5,"feliz");
 
-        System.out.println("o cachorro está " + cachorro1.reacao("vai dormir"));
+
+        System.out.println(cachorro1.toString());
+        System.out.println(cachorro2.toString());
+
+        System.out.println(Cachorro.getNumeroDeCachorros());
+
     }
 }
